@@ -1,2 +1,2 @@
-# cashew
+# Cashew
 Habit Application
