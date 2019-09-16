@@ -16,3 +16,6 @@ import Config
 #       format: "$date $time [$level] $metadata$message\n",
 #       metadata: [:user_id]
 #
+config :entries, :repo, Entries.Repo
+
+import_config "#{Mix.env()}.exs"
